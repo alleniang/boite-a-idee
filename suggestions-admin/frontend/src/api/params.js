@@ -1,0 +1,1 @@
+export const serverUrl= process.env.suggestion_back ? `http://${process.env.suggestion_admin_back}:${process.env.suggestion_admin_back_port}` : 'http://172.20.3.200:4000';
